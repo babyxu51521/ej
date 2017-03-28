@@ -1,0 +1,261 @@
+body,p,ul,li,h1,h2,h3,h4,h5,h6,table,td,dl,dd,dt{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*浮动与清楚浮动*/
+.clearfix{
+    content:"";
+    display:inline-block;
+    clear:both;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+
+.allCont{
+    width:100%;
+}
+/*头部*/
+#top{
+    width: 100%;
+    background: url("../images/bg.png") no-repeat 100% 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 90;
+}
+#top img{
+    display: inline-block;
+}
+.logo{
+    margin: 2.5% 11%;
+    width: 75.78%;
+    z-index: 90;
+}
+.fgx{
+    position: absolute;
+    width: 0.4%;
+    top:10%;
+    left:63%;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner_img{
+    float: left;
+    width: 100%;
+    display: inline-block;
+
+}
+
+
+/*表单*/
+.zeroDes{
+    width:66%;
+    margin:0 auto;
+    text-align: center;
+    padding-top:10%;
+}
+.zeroDes p{
+    width:100%;
+    font-size: 20px;
+    font-weight: bold;
+    color:#ffc519;
+    margin:0 auto;
+    padding-bottom: 10%;
+}
+.zdTit{
+    font-size: 22px;
+}
+.chart input{
+    width:90%;
+    border:1px solid #c9c9c9;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:8px;
+    outline: none;
+    padding: 5% 3%;
+    margin-bottom: 5%;
+
+}
+ .iconM{
+    display:inline-block;
+   margin-left: -10%;
+     font-size: 10px;
+}
+.chart .btnWant{
+    width:45%;
+    text-align: center;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#ffc519;
+    margin-top: 5%;
+    padding: 2% 0;
+}
+.headImg{
+    width:90%;
+    display:block;
+    margin:0 auto;
+    vertical-align: middle;
+    margin-top: 10%;
+
+}
+/*五大功效*/
+.comTit{
+    font-size: 18px;
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.comTit .hTit{
+    margin-bottom: 20px;
+}
+.comLine{
+    width:45%;
+    line-height: 20px;
+    margin: 0 auto ;
+}
+.comLine b{
+    border-top: 1px solid #969696;
+    width:40%;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+.cic{
+    width:20%;
+    display:inline-block;
+}
+.comLine i{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: #ffc519;
+    -webkit-border-radius:50%;
+    border-radius: 50%;
+}
+.feLeft{
+    width:50%;
+    font-weight: bold;
+}
+.feLeft li{
+    padding-left:3%;
+    font-size: 13px;
+    font-weight: normal;
+}
+.yellowBg{
+    color:#fff;
+    background-color: #ffc519;
+}
+.whiteBg{
+    color:#ffc519;
+    background-color:#fff ;
+}
+.feCont{
+    width:100%;
+}
+.feRight{
+    width:50%;
+    text-align: center;
+}
+.feRight img{
+    width:100%;
+}
+
+
+    /* 轮播部分*/
+     .banner{width:100vw;height: 55vw;position: relative;overflow: hidden;}
+        .img,.img1{position: absolute;top: 0;left: 0}
+        .img li,.img1 li{float: left;width:100vw; height:55vw}
+        .img li img,.img1 li img{
+            width:100vw;
+            height:55vw;
+        }
+        .num,.num1{position: absolute;bottom: 10px;width: 100vw;text-align: center;font-size: 0;}
+        .num li,.num1 li{width: 10px;height: 10px;background:rgba(0,0,0,0.5);display: block;border-radius: 100%;display: inline-block;margin: 0 5px;cursor: pointer;}
+        .num .active,.num1 .active{background-color: #ffc519;}
+/*免费设计*/
+.fdCont p{
+    width:33%;
+    float:left;
+    text-align: center;
+}
+.fdCont{
+    width:100%;
+}
+.fdCont img{
+    width:90%;
+}
+/*底部*/
+#end{
+    padding-top: 20px;
+    width: 100%;
+    background-color:#4d4948;
+    position: relative;
+    z-index: 80;
+    padding-bottom: 50px;
+}
+
+.dh{
+    margin-bottom: 10px;
+}
+.dh div{
+    text-align: center;
+    display:inline-block;
+    border-right: 1px solid white;
+}
+.dh div:last-of-type{
+    border-right: 0px;
+}
+.dh div:nth-of-type(4){
+    border-right: 0px;
+}
+.dh a{
+    color: white;
+    text-decoration:none;
+    font-size: 12px;
+}
+.lx{
+    width: 65%;
+    margin-top: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+.lx span{
+    font-size: 16px;
+}
+.lx img{
+    width: 6.25%;
+}
+.lx div{
+    margin-bottom: 10px;
+}
+.lx p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.wx{
+    width: 26.5625%;
+    position: absolute;
+    color: white;
+    bottom: 0%;
+    left:65%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.wx img{
+    width: 100%;
+}

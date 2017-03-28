@@ -1,0 +1,461 @@
+body,p,ul,li,h1,h2,h3,h4,h5,h6,table,td,dl,dd,dt{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*浮动与清楚浮动*/
+.clearfix{
+    content:"";
+    display:inline-block;
+    clear:both;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+/*主材包部分*/
+.impor{
+    width:100%;
+    margin:0 auto;
+}
+.main{
+    position:relative;
+    background: url("../images/ebg.jpg") no-repeat left top;
+    background-size:100% 100%;
+    padding-bottom: 25%;
+}
+.header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    text-align: center;
+    background-color:#b9b9bd;
+}
+.header img{
+    width:80%;
+    padding: 1% 0;
+}
+.mainBox{
+    margin:0 auto;
+    width:90%;
+    text-align: center;
+    color:#fff;
+    padding-top: 40%;
+}
+.boxJx{
+    background: url("../images/bg_jx.png") no-repeat left bottom;
+    background-size:100% 100%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+    position:relative;
+}
+.boxTit{
+    font-size: 30px;
+}
+.price{
+    width: 100%;
+    margin-left: 5%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform:translateX(-50%) translateY(-50%);
+}
+.price span{
+    color: #ffc519;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 270%;
+    margin-left: 5%;
+
+}
+.boxSlo{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top:25%;
+    padding-bottom:15%;
+
+}
+.boxAd li{
+    float:left;
+    width:45%;
+    line-height: 200%;
+    text-align: right;
+    font-size: 14px;
+}
+.boxAd li i{
+    display:inline-block;
+    width:8px;
+    height:8px;
+    line-height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right:10px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+}
+.nowSure{
+    width:40%;
+    line-height: 150%;
+    border:none;
+    border-radius: 25px;
+    -webkit-border-radius:25px;
+    font-size: 20px;
+    color:#fff;
+    background-color:#ffc519;
+    font-weight: bold;
+    outline: none;
+    margin-top:55px;
+}
+.sideCont{
+    position:absolute;
+    top:10%;
+    left:0;
+    width:100%;
+}
+.sideCont li{
+    width:20%;
+    color:#999999;
+    background-color:rgba(255,255,255,0.7) ;
+    font-weight: bold;
+    font-size:18px;
+    padding:2%;
+    text-align: center;
+    margin-bottom:2px;
+    z-index: 10;
+}
+.sideCont .boxActive{
+    color:#fff;
+    background-color:rgba(255,197,55,1) ;
+}
+.sideCont p{
+    font-size:17px;
+}
+/*大空间*/
+.result{
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+.result .result_money{
+    position: absolute;
+    color: #ffc519;
+    left:11.7%;
+}
+.result .result_money h1,span,h2{
+    display: inline-block;
+    z-index: 70;
+}
+.result #result_show{
+    width: 100%;
+
+}
+.result #result_show li{
+    width: 100%;
+    list-style-type: none;
+    z-index: 60;
+}
+.result #result_where{
+    width: 78.90625%;
+    position: absolute;
+    left:10.15625%;
+    bottom: 10%;
+    color: white;
+    overflow: hidden;
+}
+.result #result_where div{
+    float: left;
+    background-color: #e2dcdd;
+    padding: 10px;
+    margin-right: 1px;
+    font-size: 14px;
+    display: inline-block;
+}
+.result #result_where .result_w:hover{
+    background-color: orange;
+}
+.result img{
+    width: 100%;
+}
+
+
+
+
+
+.comHead{
+    width:100%;
+    color:#999;
+    text-align: center;
+    padding:10% 0;
+}
+.comHead p{
+    font-size:14px;
+}
+.comHead img{
+    width:80%;
+}
+.comHead .pic1{
+    width: 50%;
+}
+.comHead .pic2{
+    width: 60%;
+}
+.bsCont{
+    background-color: #faf9f9;
+    line-height: 37px;
+    padding-left:20px;
+    padding-top:7px;
+}
+.bsli li{
+    margin-right: 1%;
+    float: left;
+    font-size: 12px;
+}
+/*99品牌*/
+.bbShow{
+    width:100%;
+    background:url("../images/brand-bg.jpg")no-repeat left top;
+    background-size:100% 100%;
+    text-align: center;
+    padding:10% 0;
+}
+.bbShow img{
+    width:90%;
+    margin:0 auto;
+}
+/*装修必备*/
+.bnPic{
+    width:100%;
+}
+.bnPic img{
+    width:100%;
+}
+.bnPic li:nth-child(2){
+    width:43%
+}
+.bnPic li:nth-child(3){
+    width:28%
+}
+.bnPic li:nth-child(4){
+    width:27%
+}
+.bnPic li:nth-child(5){
+    width:43.8%
+}
+.bnWid {
+    width:55%;
+}
+.bnPic li{
+    float:left;
+    position:relative;
+    margin-right: 1px;
+    margin-bottom: 5px;
+
+}
+.bnPic li img{
+    vertical-align: middle;
+}
+.bottomBox{
+    position:absolute;
+    bottom:2px;
+    left:0;
+    color:#fff;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    width:100%;
+    font-size: 16px;
+    padding: 3% 0;
+}
+.leftBox{
+    position:absolute;
+    top:0px;
+    left:0;
+    color:#fff;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    width:30%;
+    height:100%;
+    font-size: 16px;
+}
+.leftBox p{
+    padding-top:130%;
+}
+.bnPic .marTop{
+    margin-top:-19%;
+}
+/*计价方式*/
+
+
+.pwShow{
+    background:url("../images/way.jpg") no-repeat left top;
+    background-size:100% 100%;
+    width:100%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.botWid p{
+    margin-bottom: 2%;
+}
+.pwCont{
+    width: 90%;
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 150%;
+    padding-bottom: 5%;
+
+}
+.hasBg{
+    display:inline-block;
+    background: #ffc519;
+    line-height:200%;
+    color:#fff;
+}
+.spci{
+    color:#666
+}
+
+/*我们的优势*/
+.waShow{
+    width:100%;
+    background: url("../images/advBg.jpg") no-repeat left top;
+    background-size:cover;
+    padding-bottom: 80%;
+}
+.waShow ul{
+    width:90%;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+.waShow li{
+    float:left;
+    width:33%;
+    font-size:16px;
+    font-weight:bold;
+    color:#4d4948;
+    text-align: center;
+    margin-top: 25px;
+}
+.waShow .bigLi{
+    width:50%;
+}
+.waShow .bigLi b{
+    width:23%;
+}
+.waShow .yellBg{
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    background: url(../images/yellowbg.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    padding: 10%;
+}
+.yellBot{
+    line-height:30px;
+    padding-top:10px;
+}
+/*配送*/
+.kpShow img{
+    width:80%;
+}
+.kpShow ul{
+    width:100%;
+    margin-bottom: 10%;
+}
+.kpShow li{
+    padding-top: 10%;
+    float: left;
+    text-align: center;
+    margin-right: 0.3%;
+    background-color: #f7f5f5;
+    padding-bottom: 20%;
+}
+.kpShow .fir{
+    width:32%;
+}
+.kpShow .third{
+    width:32%;
+    float:right;
+    padding-bottom: 13%;
+}
+.kpShow .sec{
+    width:35%;
+}
+.kpShow .sec div{
+    width:95%
+}
+.kpShow li p{
+    color:#ffc519;
+    font-size: 20px;
+    margin-top: 10%;
+}
+/*底部*/
+#end{
+    padding-top: 20px;
+    width: 100%;
+    background-color:#4d4948;
+    position: relative;
+    z-index: 80;
+    padding-bottom: 50px;
+}
+
+.dh{
+    margin-bottom: 10px;
+}
+.dh div{
+    text-align: center;
+    display:inline-block;
+    border-right: 1px solid white;
+}
+.dh div:last-of-type{
+    border-right: 0px;
+}
+.dh div:nth-of-type(4){
+    border-right: 0px;
+}
+.dh a{
+    color: white;
+    text-decoration:none;
+    font-size: 12px;
+}
+.lx{
+    width: 65%;
+    margin-top: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+.lx span{
+    font-size: 16px;
+}
+.lx img{
+    width: 6.25%;
+}
+.lx div{
+    margin-bottom: 10px;
+}
+.lx p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.wx{
+    width: 26.5625%;
+    position: absolute;
+    color: white;
+    bottom: 0%;
+    left:65%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.wx img{
+    width: 100%;
+}
